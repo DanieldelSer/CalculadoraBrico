@@ -1,0 +1,29 @@
+[
+    {
+        "sinceWidth": 0.00,
+        "untilWidth": 0.00,
+        "sinceHigh": 0.00,
+        "untilHigh": 0.00,
+        "price": [
+            0
+        ]
+    },
+    {
+        "sinceWidth": 0.00,
+        "untilWidth": 0.60,
+        "sinceHigh": 0.00,
+        "untilHigh": 0.90,
+        "price": [
+            39.95
+        ]
+    },
+    {
+        "sinceWidth": 0.601,
+        "untilWidth": 0.700,
+        "sinceHigh": 0.00,
+        "untilHigh": 0.90,
+        "price": [
+            42.95
+        ]
+    }
+]
