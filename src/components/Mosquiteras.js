@@ -54,7 +54,7 @@ const Mosquiteras = () => {
         <div>
             <Container className="sticky-top pt-3 mt-5 bgColor">
                 <Row className="d-flex justify-content-center d-flex align-items-center">
-                    <Col xs lg="2">
+                    <Col xs lg="3">
                         <div className="justify-content-center">
                             <h2 className="text-black">Mosquiteras</h2>
                         </div>
@@ -111,7 +111,7 @@ const Mosquiteras = () => {
                                             <li>Blanco y plata</li>
                                             <li>Precio: <strong>53,95€/m<sup>2</sup></strong></li>
                                         </ul>
-                                            <p className="text-warning">Total: <strong>{obtainPrice()}€</strong></p>
+                                            {/* <p className="text-warning">Total: <strong>{obtainPrice()}€</strong></p> */}
                                     </div>
                                     <div>
                                         <ul>
@@ -127,7 +127,7 @@ const Mosquiteras = () => {
                                             <li>Burdeos</li>
                                             <li>Precio: <strong>53,95€/m<sup>2</sup> + 15%</strong> del total</li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{obtainPrice()}€</strong></p>
+                                        {/* <p className="text-warning">Total: <strong>{obtainPrice()}€</strong></p> */}
                                     </div>
                                     <div>
                                         Veteados madera:
@@ -136,7 +136,7 @@ const Mosquiteras = () => {
                                             <li>Envero Oscuro</li>
                                             <li>Precio: <strong>53,95€/m<sup>2</sup> + 55%</strong> del total</li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{obtainPrice()}€</strong></p>
+                                        {/* <p className="text-warning">Total: <strong>{obtainPrice()}€</strong></p> */}
                                     </div>
                                 </>
                             }

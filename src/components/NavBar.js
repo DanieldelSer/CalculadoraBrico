@@ -6,6 +6,7 @@ import logo from '../img/logo.jpg';
 
 import moment from 'moment';
 import 'moment/locale/es';
+import { Link } from 'react-router-dom';
 
 moment.locale('es');
 
@@ -29,10 +30,10 @@ const NavBar = () => {
                             />
                                 BricoCentro
                         </Navbar.Brand>
-                        <Nav className="mr-auto">
-                            <Nav.Link href="mosquiteras">Mosquiteras</Nav.Link>
-                            <Nav.Link href="cortinas">Cortinas de tiras</Nav.Link>
-                            <Nav.Link href="persianas">Persianas y Alicantinas</Nav.Link>
+                        <Nav className="mr-auto text">
+                            <Nav.Link href="/mosquiteras"><Link to="/mosquiteras" className="text">Mosquiteras</Link></Nav.Link>
+                            <Nav.Link href="/cortinas"><Link to="/cortinas" className="text">Cortinas de tiras</Link></Nav.Link>
+                            <Nav.Link href="/persianas"><Link to="/persianas" className="text">Persianas y Alicantinas</Link></Nav.Link>
                         </Nav>
                         <div className="mx-auto text-warning">
                             {today}

@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+.text{
+  text-decoration: none;
+  color:rgb(154,157,160);
+}
+
+.text:hover{
+  text-decoration: none;
+  color:rgb(213, 216, 219);;
+}
+
 .hover{
   height: 100%;
 }

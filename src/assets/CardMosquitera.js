@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 
 const CardMosquitera = (props) => {
   return (
-    <Card style={{ width: '20rem' }} className="cardMosqui">
+    <Card style={{ width: 'auto' }} className="cardMosqui">
       
         <Card.Img variant="top" src={props.img} className={props.clase} />
       

@@ -22,17 +22,19 @@ function App() {
           <Main />
         </Route>
         <Route exact path="/mosquiteras">
-          <Container md={3}>
-          <Mosquiteras />
+          <Container >
+            <Mosquiteras />
           </Container>
         </Route>
         <Route exact path="/cortinas">
-          <Container md={3}>
-          <Cortinas />
+          <Container >
+            <Cortinas />
           </Container>
         </Route>
         <Route exact path="/persianas">
-          <Persianas />
+          <Container >
+            <Persianas />
+          </Container>
         </Route>
       </div>
     </BrowserRouter>

@@ -59,7 +59,7 @@ const Cortinas = () => {
         <div>
             <Container className="sticky-top pt-3 mt-5 bgColor">
                 <Row className="d-flex justify-content-center d-flex align-items-center">
-                    <Col xs lg="2">
+                    <Col xs lg="3">
                         <div className="justify-content-center">
                             <h2 className="text-black">Cortinas</h2>
                         </div>
