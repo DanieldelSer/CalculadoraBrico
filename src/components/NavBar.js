@@ -31,7 +31,7 @@ const NavBar = () => {
                                 BricoCentro
                         </Navbar.Brand>
                         <Nav className="mr-auto text">
-                            <Nav.Link href="/mosquiteras"><Link to="/mosquiteras" className="text">Mosquiteras</Link></Nav.Link>
+                            <Nav.Link href="/mosquiteras"><Link to="/mosquiteras" className="text" id="mosquiteras">Mosquiteras</Link></Nav.Link>
                             <Nav.Link href="/cortinas"><Link to="/cortinas" className="text">Cortinas de tiras</Link></Nav.Link>
                             <Nav.Link href="/persianas"><Link to="/persianas" className="text">Persianas y Alicantinas</Link></Nav.Link>
                         </Nav>

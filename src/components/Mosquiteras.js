@@ -19,8 +19,8 @@ const Mosquiteras = () => {
 
     const [high, setHigh] = useState(0);
     const [width, setWidth] = useState(0);
-    const [hiround, setHiround] = useState(0);
-    const [wiround, setWiround] = useState(0);
+    const [hiround, setHiround] = useState((Math.ceil(high * 20) / 20).toFixed(2));
+    const [wiround, setWiround] = useState((Math.ceil(width * 20) / 20).toFixed(2));
 
     const calculatePrice = (hi, wi, price) => {
         let num;
@@ -41,6 +41,17 @@ const Mosquiteras = () => {
         return data.find(o => o.sinceWidth <= width && o.untilWidth >= width).price[0];
     }
 
+    const handleKeyDownHigh = (event) => {
+        if (event.key === 'Enter') {
+            document.getElementById('width').focus();
+        }
+    }
+    const handleKeyDownWidth = (event) => {
+        if (event.key === 'Enter') {
+            document.getElementById('high').focus();
+        }
+    }
+
     const manageChangeHigh = (e) => {
         setHigh(e.target.value);
         setHiround((Math.ceil(e.target.value * 20) / 20).toFixed(2));
@@ -59,18 +70,20 @@ const Mosquiteras = () => {
                             <h2 className="text-black">Mosquiteras</h2>
                         </div>
                     </Col>
-                    <Col xs lg="2">
+                    <Col xs lg="3">
                         <InputGroup className="mb-3">
                             <InputGroup.Prepend>
                                 <InputGroup.Text id="basic-addon1">Alto</InputGroup.Text>
                             </InputGroup.Prepend>
                             <FormControl
                                 onChange={manageChangeHigh}
+                                onKeyDown={handleKeyDownHigh}
                                 placeholder=""
                                 aria-label="Username"
                                 aria-describedby="basic-addon1"
                                 type="number"
                                 step="0.01"
+                                id="high"
                             />
                         </InputGroup>
                         <InputGroup className="mb-3">
@@ -79,11 +92,13 @@ const Mosquiteras = () => {
                             </InputGroup.Prepend>
                             <FormControl
                                 onChange={manageChangeWidth}
+                                onKeyDown={handleKeyDownWidth}
                                 placeholder=""
                                 aria-label="Username"
                                 aria-describedby="basic-addon1"
                                 type="number"
                                 step="0.01"
+                                id="width"
                             />
                         </InputGroup>
                     </Col>
@@ -111,7 +126,7 @@ const Mosquiteras = () => {
                                             <li>Blanco y plata</li>
                                             <li>Precio: <strong>53,95€/m<sup>2</sup></strong></li>
                                         </ul>
-                                            {/* <p className="text-warning">Total: <strong>{obtainPrice()}€</strong></p> */}
+                                        {/* <p className="text-warning">Total: <strong>{obtainPrice()}€</strong></p> */}
                                     </div>
                                     <div>
                                         <ul>

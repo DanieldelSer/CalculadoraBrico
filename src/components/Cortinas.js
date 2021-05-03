@@ -31,6 +31,7 @@ const Cortinas = () => {
     const [hiround, setHiround] = useState((Math.ceil(high * 20) / 20).toFixed(2));
     const [wiround, setWiround] = useState((Math.ceil(width * 20) / 20).toFixed(2));
 
+
     const calculatePrice = (hi, wi, price) => {
         let num;
         hi = (Math.ceil(hi * 20) / 20).toFixed(2);
@@ -45,6 +46,17 @@ const Cortinas = () => {
             return Number(num.toFixed(2));
         }
     };
+
+    const handleKeyDownHigh = (event) => {
+        if (event.key === 'Enter') {
+            document.getElementById('width').focus();
+        }
+    }
+    const handleKeyDownWidth = (event) => {
+        if (event.key === 'Enter') {
+            document.getElementById('high').focus();
+        }
+    }
 
     const manageChangeHigh = (e) => {
         setHigh(e.target.value);
@@ -64,18 +76,20 @@ const Cortinas = () => {
                             <h2 className="text-black">Cortinas</h2>
                         </div>
                     </Col>
-                    <Col xs lg="2">
+                    <Col xs lg="3">
                         <InputGroup className="mb-3">
                             <InputGroup.Prepend>
                                 <InputGroup.Text id="basic-addon1">Alto</InputGroup.Text>
                             </InputGroup.Prepend>
                             <FormControl
                                 onChange={manageChangeHigh}
+                                onKeyDown={handleKeyDownHigh}
                                 placeholder=""
                                 aria-label="Username"
                                 aria-describedby="basic-addon1"
                                 type="number"
                                 step="0.01"
+                                id="high"
                             />
                         </InputGroup>
                         <InputGroup className="mb-3">
@@ -84,11 +98,13 @@ const Cortinas = () => {
                             </InputGroup.Prepend>
                             <FormControl
                                 onChange={manageChangeWidth}
+                                onKeyDown={handleKeyDownWidth}
                                 placeholder=""
                                 aria-label="Username"
                                 aria-describedby="basic-addon1"
                                 type="number"
                                 step="0.01"
+                                id="width"
                             />
                         </InputGroup>
                     </Col>
