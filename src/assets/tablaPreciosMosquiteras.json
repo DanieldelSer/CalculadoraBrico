@@ -25,5 +25,1859 @@
         "price": [
             42.95
         ]
+    },
+    {
+        "sinceWidth": 0.701,
+        "untilWidth": 0.800,
+        "sinceHigh": 0.00,
+        "untilHigh": 0.90,
+        "price": [
+            46.50
+        ]
+    },
+    {
+        "sinceWidth": 0.801,
+        "untilWidth": 0.900,
+        "sinceHigh": 0.00,
+        "untilHigh": 0.90,
+        "price": [
+            49.50
+        ]
+    },
+    {
+        "sinceWidth": 0.901,
+        "untilWidth": 1,
+        "sinceHigh": 0.00,
+        "untilHigh": 0.90,
+        "price": [
+            51.95
+        ]
+    },
+    {
+        "sinceWidth": 1.001,
+        "untilWidth": 1.10,
+        "sinceHigh": 0.00,
+        "untilHigh": 0.90,
+        "price": [
+            54.95
+        ]
+    },
+    {
+        "sinceWidth": 1.101,
+        "untilWidth": 1.20,
+        "sinceHigh": 0.00,
+        "untilHigh": 0.90,
+        "price": [
+            61.50
+        ]
+    },
+    {
+        "sinceWidth": 1.201,
+        "untilWidth": 1.30,
+        "sinceHigh": 0.00,
+        "untilHigh": 0.90,
+        "price": [
+            61.50
+        ]
+    },
+    {
+        "sinceWidth": 1.301,
+        "untilWidth": 1.40,
+        "sinceHigh": 0.00,
+        "untilHigh": 0.90,
+        "price": [
+            64.50
+        ]
+    },
+    {
+        "sinceWidth": 1.401,
+        "untilWidth": 1.50,
+        "sinceHigh": 0.00,
+        "untilHigh": 0.90,
+        "price": [
+            66.95
+        ]
+    },
+    {
+        "sinceWidth": 1.501,
+        "untilWidth": 1.60,
+        "sinceHigh": 0.00,
+        "untilHigh": 0.90,
+        "price": [
+            70.95
+        ]
+    },
+    {
+        "sinceWidth": 1.601,
+        "untilWidth": 1.70,
+        "sinceHigh": 0.00,
+        "untilHigh": 0.90,
+        "price": [
+            73.50
+        ]
+    },
+    {
+        "sinceWidth": 1.701,
+        "untilWidth": 1.80,
+        "sinceHigh": 0.00,
+        "untilHigh": 0.90,
+        "price": [
+            76.50
+        ]
+    },
+    {
+        "sinceWidth": 0.00,
+        "untilWidth": 0.60,
+        "sinceHigh": 0.901,
+        "untilHigh": 1,
+        "price": [
+            41.95
+        ]
+    },
+    {
+        "sinceWidth": 0.601,
+        "untilWidth": 0.700,
+        "sinceHigh": 0.901,
+        "untilHigh": 1,
+        "price": [
+            44.95
+        ]
+    },
+    {
+        "sinceWidth": 0.701,
+        "untilWidth": 0.800,
+        "sinceHigh": 0.901,
+        "untilHigh": 1,
+        "price": [
+            47.50
+        ]
+    },
+    {
+        "sinceWidth": 0.801,
+        "untilWidth": 0.900,
+        "sinceHigh": 0.901,
+        "untilHigh": 1,
+        "price": [
+            50.50
+        ]
+    },
+    {
+        "sinceWidth": 0.901,
+        "untilWidth": 1,
+        "sinceHigh": 0.901,
+        "untilHigh": 1,
+        "price": [
+            53.95
+        ]
+    },
+    {
+        "sinceWidth": 1.001,
+        "untilWidth": 1.10,
+        "sinceHigh": 0.901,
+        "untilHigh": 1,
+        "price": [
+            56.95
+        ]
+    },
+    {
+        "sinceWidth": 1.101,
+        "untilWidth": 1.20,
+        "sinceHigh": 0.901,
+        "untilHigh": 1,
+        "price": [
+            59.50
+        ]
+    },
+    {
+        "sinceWidth": 1.201,
+        "untilWidth": 1.30,
+        "sinceHigh": 0.901,
+        "untilHigh": 1,
+        "price": [
+            62.50
+        ]
+    },
+    {
+        "sinceWidth": 1.301,
+        "untilWidth": 1.40,
+        "sinceHigh": 0.901,
+        "untilHigh": 1,
+        "price": [
+            65.95
+        ]
+    },
+    {
+        "sinceWidth": 1.401,
+        "untilWidth": 1.50,
+        "sinceHigh": 0.901,
+        "untilHigh": 1,
+        "price": [
+            68.95
+        ]
+    },
+    {
+        "sinceWidth": 1.501,
+        "untilWidth": 1.60,
+        "sinceHigh": 0.901,
+        "untilHigh": 1,
+        "price": [
+            71.50
+        ]
+    },
+    {
+        "sinceWidth": 1.601,
+        "untilWidth": 1.70,
+        "sinceHigh": 0.901,
+        "untilHigh": 1,
+        "price": [
+            74.50
+        ]
+    },
+    {
+        "sinceWidth": 1.701,
+        "untilWidth": 1.80,
+        "sinceHigh": 0.901,
+        "untilHigh": 1,
+        "price": [
+            77.95
+        ]
+    },
+    {
+        "sinceWidth": 0.00,
+        "untilWidth": 0.60,
+        "sinceHigh": 1.001,
+        "untilHigh": 1.10,
+        "price": [
+            42.95
+        ]
+    },
+    {
+        "sinceWidth": 0.601,
+        "untilWidth": 0.700,
+        "sinceHigh": 1.001,
+        "untilHigh": 1.10,
+        "price": [
+            45.50
+        ]
+    },
+    {
+        "sinceWidth": 0.701,
+        "untilWidth": 0.800,
+        "sinceHigh": 1.001,
+        "untilHigh": 1.10,
+        "price": [
+            49.50
+        ]
+    },
+    {
+        "sinceWidth": 0.801,
+        "untilWidth": 0.900,
+        "sinceHigh": 1.001,
+        "untilHigh": 1.10,
+        "price": [
+            51.95
+        ]
+    },
+    {
+        "sinceWidth": 0.901,
+        "untilWidth": 1,
+        "sinceHigh": 1.001,
+        "untilHigh": 1.10,
+        "price": [
+            54.95
+        ]
+    },
+    {
+        "sinceWidth": 1.001,
+        "untilWidth": 1.10,
+        "sinceHigh": 1.001,
+        "untilHigh": 1.10,
+        "price": [
+            57.95
+        ]
+    },
+    {
+        "sinceWidth": 1.101,
+        "untilWidth": 1.20,
+        "sinceHigh": 1.001,
+        "untilHigh": 1.10,
+        "price": [
+            61.50
+        ]
+    },
+    {
+        "sinceWidth": 1.201,
+        "untilWidth": 1.30,
+        "sinceHigh": 1.001,
+        "untilHigh": 1.10,
+        "price": [
+            64.50
+        ]
+    },
+    {
+        "sinceWidth": 1.301,
+        "untilWidth": 1.40,
+        "sinceHigh": 1.001,
+        "untilHigh": 1.10,
+        "price": [
+            66.95
+        ]
+    },
+    {
+        "sinceWidth": 1.401,
+        "untilWidth": 1.50,
+        "sinceHigh": 1.001,
+        "untilHigh": 1.10,
+        "price": [
+            69.95
+        ]
+    },
+    {
+        "sinceWidth": 1.501,
+        "untilWidth": 1.60,
+        "sinceHigh": 1.001,
+        "untilHigh": 1.10,
+        "price": [
+            73.50
+        ]
+    },
+    {
+        "sinceWidth": 1.601,
+        "untilWidth": 1.70,
+        "sinceHigh": 1.001,
+        "untilHigh": 1.10,
+        "price": [
+            76.50
+        ]
+    },
+    {
+        "sinceWidth": 1.701,
+        "untilWidth": 1.80,
+        "sinceHigh": 1.001,
+        "untilHigh": 1.10,
+        "price": [
+            78.95
+        ]
+    },
+    {
+        "sinceWidth": 0.00,
+        "untilWidth": 0.60,
+        "sinceHigh": 1.101,
+        "untilHigh": 1.20,
+        "price": [
+            44.95
+        ]
+    },
+    {
+        "sinceWidth": 0.601,
+        "untilWidth": 0.700,
+        "sinceHigh": 1.101,
+        "untilHigh": 1.20,
+        "price": [
+            47.50
+        ]
+    },
+    {
+        "sinceWidth": 0.701,
+        "untilWidth": 0.800,
+        "sinceHigh": 1.101,
+        "untilHigh": 1.20,
+        "price": [
+            50.50
+        ]
+    },
+    {
+        "sinceWidth": 0.801,
+        "untilWidth": 0.900,
+        "sinceHigh": 1.101,
+        "untilHigh": 1.20,
+        "price": [
+            51.95
+        ]
+    },
+    {
+        "sinceWidth": 0.901,
+        "untilWidth": 1,
+        "sinceHigh": 1.101,
+        "untilHigh": 1.20,
+        "price": [
+            56.95
+        ]
+    },
+    {
+        "sinceWidth": 1.001,
+        "untilWidth": 1.10,
+        "sinceHigh": 1.101,
+        "untilHigh": 1.20,
+        "price": [
+            59.50
+        ]
+    },
+    {
+        "sinceWidth": 1.101,
+        "untilWidth": 1.20,
+        "sinceHigh": 1.101,
+        "untilHigh": 1.20,
+        "price": [
+            62.50
+        ]
+    },
+    {
+        "sinceWidth": 1.201,
+        "untilWidth": 1.30,
+        "sinceHigh": 1.101,
+        "untilHigh": 1.20,
+        "price": [
+            64.95
+        ]
+    },
+    {
+        "sinceWidth": 1.301,
+        "untilWidth": 1.40,
+        "sinceHigh": 1.101,
+        "untilHigh": 1.20,
+        "price": [
+            68.95
+        ]
+    },
+    {
+        "sinceWidth": 1.401,
+        "untilWidth": 1.50,
+        "sinceHigh": 1.101,
+        "untilHigh": 1.20,
+        "price": [
+            71.50
+        ]
+    },
+    {
+        "sinceWidth": 1.501,
+        "untilWidth": 1.60,
+        "sinceHigh": 1.101,
+        "untilHigh": 1.20,
+        "price": [
+            74.50
+        ]
+    },
+    {
+        "sinceWidth": 1.601,
+        "untilWidth": 1.70,
+        "sinceHigh": 1.101,
+        "untilHigh": 1.20,
+        "price": [
+            77.50
+        ]
+    },
+    {
+        "sinceWidth": 1.701,
+        "untilWidth": 1.80,
+        "sinceHigh": 1.101,
+        "untilHigh": 1.20,
+        "price": [
+            80.95
+        ]
+    },
+    {
+        "sinceWidth": 0.00,
+        "untilWidth": 0.60,
+        "sinceHigh": 1.201,
+        "untilHigh": 1.30,
+        "price": [
+            45.50
+        ]
+    },
+    {
+        "sinceWidth": 0.601,
+        "untilWidth": 0.700,
+        "sinceHigh": 1.201,
+        "untilHigh": 1.30,
+        "price": [
+            48.50
+        ]
+    },
+    {
+        "sinceWidth": 0.701,
+        "untilWidth": 0.800,
+        "sinceHigh": 1.201,
+        "untilHigh": 1.30,
+        "price": [
+            51.95
+        ]
+    },
+    {
+        "sinceWidth": 0.801,
+        "untilWidth": 0.900,
+        "sinceHigh": 1.201,
+        "untilHigh": 1.30,
+        "price": [
+            54.95
+        ]
+    },
+    {
+        "sinceWidth": 0.901,
+        "untilWidth": 1,
+        "sinceHigh": 1.201,
+        "untilHigh": 1.30,
+        "price": [
+            57.95
+        ]
+    },
+    {
+        "sinceWidth": 1.001,
+        "untilWidth": 1.10,
+        "sinceHigh": 1.201,
+        "untilHigh": 1.30,
+        "price": [
+            60.50
+        ]
+    },
+    {
+        "sinceWidth": 1.101,
+        "untilWidth": 1.20,
+        "sinceHigh": 1.201,
+        "untilHigh": 1.30,
+        "price": [
+            64.50
+        ]
+    },
+    {
+        "sinceWidth": 1.201,
+        "untilWidth": 1.30,
+        "sinceHigh": 1.201,
+        "untilHigh": 1.30,
+        "price": [
+            66.95
+        ]
+    },
+    {
+        "sinceWidth": 1.301,
+        "untilWidth": 1.40,
+        "sinceHigh": 1.201,
+        "untilHigh": 1.30,
+        "price": [
+            69.95
+        ]
+    },
+    {
+        "sinceWidth": 1.401,
+        "untilWidth": 1.50,
+        "sinceHigh": 1.201,
+        "untilHigh": 1.30,
+        "price": [
+            72.50
+        ]
+    },
+    {
+        "sinceWidth": 1.501,
+        "untilWidth": 1.60,
+        "sinceHigh": 1.201,
+        "untilHigh": 1.30,
+        "price": [
+            76.50
+        ]
+    },
+    {
+        "sinceWidth": 1.601,
+        "untilWidth": 1.70,
+        "sinceHigh": 1.201,
+        "untilHigh": 1.30,
+        "price": [
+            78.95
+        ]
+    },
+    {
+        "sinceWidth": 1.701,
+        "untilWidth": 1.80,
+        "sinceHigh": 1.201,
+        "untilHigh": 1.30,
+        "price": [
+            81.95
+        ]
+    },
+    {
+        "sinceWidth": 0.00,
+        "untilWidth": 0.60,
+        "sinceHigh": 1.301,
+        "untilHigh": 1.40,
+        "price": [
+            47.50
+        ]
+    },
+    {
+        "sinceWidth": 0.601,
+        "untilWidth": 0.700,
+        "sinceHigh": 1.301,
+        "untilHigh": 1.40,
+        "price": [
+            50.50
+        ]
+    },
+    {
+        "sinceWidth": 0.701,
+        "untilWidth": 0.800,
+        "sinceHigh": 1.301,
+        "untilHigh": 1.40,
+        "price": [
+            52.95
+        ]
+    },
+    {
+        "sinceWidth": 0.801,
+        "untilWidth": 0.900,
+        "sinceHigh": 1.301,
+        "untilHigh": 1.40,
+        "price": [
+            55.95
+        ]
+    },
+    {
+        "sinceWidth": 0.901,
+        "untilWidth": 1,
+        "sinceHigh": 1.301,
+        "untilHigh": 1.40,
+        "price": [
+            59.50
+        ]
+    },
+    {
+        "sinceWidth": 1.001,
+        "untilWidth": 1.10,
+        "sinceHigh": 1.301,
+        "untilHigh": 1.40,
+        "price": [
+            62.50
+        ]
+    },
+    {
+        "sinceWidth": 1.101,
+        "untilWidth": 1.20,
+        "sinceHigh": 1.301,
+        "untilHigh": 1.40,
+        "price": [
+            64.95
+        ]
+    },
+    {
+        "sinceWidth": 1.201,
+        "untilWidth": 1.30,
+        "sinceHigh": 1.301,
+        "untilHigh": 1.40,
+        "price": [
+            67.95
+        ]
+    },
+    {
+        "sinceWidth": 1.301,
+        "untilWidth": 1.40,
+        "sinceHigh": 1.301,
+        "untilHigh": 1.40,
+        "price": [
+            71.50
+        ]
+    },
+    {
+        "sinceWidth": 1.401,
+        "untilWidth": 1.50,
+        "sinceHigh": 1.301,
+        "untilHigh": 1.40,
+        "price": [
+            74.50
+        ]
+    },
+    {
+        "sinceWidth": 1.501,
+        "untilWidth": 1.60,
+        "sinceHigh": 1.301,
+        "untilHigh": 1.40,
+        "price": [
+            77.50
+        ]
+    },
+    {
+        "sinceWidth": 1.601,
+        "untilWidth": 1.70,
+        "sinceHigh": 1.301,
+        "untilHigh": 1.40,
+        "price": [
+            79.95
+        ]
+    },
+    {
+        "sinceWidth": 1.701,
+        "untilWidth": 1.80,
+        "sinceHigh": 1.301,
+        "untilHigh": 1.40,
+        "price": [
+            83.95
+        ]
+    },
+    {
+        "sinceWidth": 0.00,
+        "untilWidth": 0.60,
+        "sinceHigh": 1.401,
+        "untilHigh": 1.50,
+        "price": [
+            48.50
+        ]
+    },
+    {
+        "sinceWidth": 0.601,
+        "untilWidth": 0.700,
+        "sinceHigh": 1.401,
+        "untilHigh": 1.50,
+        "price": [
+            50.95
+        ]
+    },
+    {
+        "sinceWidth": 0.701,
+        "untilWidth": 0.800,
+        "sinceHigh": 1.401,
+        "untilHigh": 1.50,
+        "price": [
+            54.95
+        ]
+    },
+    {
+        "sinceWidth": 0.801,
+        "untilWidth": 0.900,
+        "sinceHigh": 1.401,
+        "untilHigh": 1.50,
+        "price": [
+            57.95
+        ]
+    },
+    {
+        "sinceWidth": 0.901,
+        "untilWidth": 1,
+        "sinceHigh": 1.401,
+        "untilHigh": 1.50,
+        "price": [
+            60.50
+        ]
+    },
+    {
+        "sinceWidth": 1.001,
+        "untilWidth": 1.10,
+        "sinceHigh": 1.401,
+        "untilHigh": 1.50,
+        "price": [
+            63.50
+        ]
+    },
+    {
+        "sinceWidth": 1.101,
+        "untilWidth": 1.20,
+        "sinceHigh": 1.401,
+        "untilHigh": 1.50,
+        "price": [
+            66.95
+        ]
+    },
+    {
+        "sinceWidth": 1.201,
+        "untilWidth": 1.30,
+        "sinceHigh": 1.401,
+        "untilHigh": 1.50,
+        "price": [
+            69.95
+        ]
+    },
+    {
+        "sinceWidth": 1.301,
+        "untilWidth": 1.40,
+        "sinceHigh": 1.401,
+        "untilHigh": 1.50,
+        "price": [
+            72.50
+        ]
+    },
+    {
+        "sinceWidth": 1.401,
+        "untilWidth": 1.50,
+        "sinceHigh": 1.401,
+        "untilHigh": 1.50,
+        "price": [
+            75.50
+        ]
+    },
+    {
+        "sinceWidth": 1.501,
+        "untilWidth": 1.60,
+        "sinceHigh": 1.401,
+        "untilHigh": 1.50,
+        "price": [
+            78.95
+        ]
+    },
+    {
+        "sinceWidth": 1.601,
+        "untilWidth": 1.70,
+        "sinceHigh": 1.401,
+        "untilHigh": 1.50,
+        "price": [
+            81.95
+        ]
+    },
+    {
+        "sinceWidth": 1.701,
+        "untilWidth": 1.80,
+        "sinceHigh": 1.401,
+        "untilHigh": 1.50,
+        "price": [
+            84.95
+        ]
+    },
+    {
+        "sinceWidth": 0.00,
+        "untilWidth": 0.60,
+        "sinceHigh": 1.501,
+        "untilHigh": 1.60,
+        "price": [
+            50.50
+        ]
+    },
+    {
+        "sinceWidth": 0.601,
+        "untilWidth": 0.700,
+        "sinceHigh": 1.501,
+        "untilHigh": 1.60,
+        "price": [
+            52.95
+        ]
+    },
+    {
+        "sinceWidth": 0.701,
+        "untilWidth": 0.800,
+        "sinceHigh": 1.501,
+        "untilHigh": 1.60,
+        "price": [
+            55.95
+        ]
+    },
+    {
+        "sinceWidth": 0.801,
+        "untilWidth": 0.900,
+        "sinceHigh": 1.501,
+        "untilHigh": 1.60,
+        "price": [
+            61.50
+        ]
+    },
+    {
+        "sinceWidth": 0.901,
+        "untilWidth": 1,
+        "sinceHigh": 1.501,
+        "untilHigh": 1.60,
+        "price": [
+            62.50
+        ]
+    },
+    {
+        "sinceWidth": 1.001,
+        "untilWidth": 1.10,
+        "sinceHigh": 1.501,
+        "untilHigh": 1.60,
+        "price": [
+            64.95
+        ]
+    },
+    {
+        "sinceWidth": 1.101,
+        "untilWidth": 1.20,
+        "sinceHigh": 1.501,
+        "untilHigh": 1.60,
+        "price": [
+            67.95
+        ]
+    },
+    {
+        "sinceWidth": 1.201,
+        "untilWidth": 1.30,
+        "sinceHigh": 1.501,
+        "untilHigh": 1.60,
+        "price": [
+            70.95
+        ]
+    },
+    {
+        "sinceWidth": 1.301,
+        "untilWidth": 1.40,
+        "sinceHigh": 1.501,
+        "untilHigh": 1.60,
+        "price": [
+            74.50
+        ]
+    },
+    {
+        "sinceWidth": 1.401,
+        "untilWidth": 1.50,
+        "sinceHigh": 1.501,
+        "untilHigh": 1.60,
+        "price": [
+            77.50
+        ]
+    },
+    {
+        "sinceWidth": 1.501,
+        "untilWidth": 1.60,
+        "sinceHigh": 1.501,
+        "untilHigh": 1.60,
+        "price": [
+            79.95
+        ]
+    },
+    {
+        "sinceWidth": 1.601,
+        "untilWidth": 1.70,
+        "sinceHigh": 1.501,
+        "untilHigh": 1.60,
+        "price": [
+            82.95
+        ]
+    },
+    {
+        "sinceWidth": 1.701,
+        "untilWidth": 1.80,
+        "sinceHigh": 1.501,
+        "untilHigh": 1.60,
+        "price": [
+            86.50
+        ]
+    },
+    {
+        "sinceWidth": 0.00,
+        "untilWidth": 0.60,
+        "sinceHigh": 1.601,
+        "untilHigh": 1.70,
+        "price": [
+            50.95
+        ]
+    },
+    {
+        "sinceWidth": 0.601,
+        "untilWidth": 0.700,
+        "sinceHigh": 1.601,
+        "untilHigh": 1.70,
+        "price": [
+            53.95
+        ]
+    },
+    {
+        "sinceWidth": 0.701,
+        "untilWidth": 0.800,
+        "sinceHigh": 1.601,
+        "untilHigh": 1.70,
+        "price": [
+            57.95
+        ]
+    },
+    {
+        "sinceWidth": 0.801,
+        "untilWidth": 0.900,
+        "sinceHigh": 1.601,
+        "untilHigh": 1.70,
+        "price": [
+            60.50
+        ]
+    },
+    {
+        "sinceWidth": 0.901,
+        "untilWidth": 1,
+        "sinceHigh": 1.601,
+        "untilHigh": 1.70,
+        "price": [
+            63.50
+        ]
+    },
+    {
+        "sinceWidth": 1.001,
+        "untilWidth": 1.10,
+        "sinceHigh": 1.601,
+        "untilHigh": 1.70,
+        "price": [
+            65.95
+        ]
+    },
+    {
+        "sinceWidth": 1.101,
+        "untilWidth": 1.20,
+        "sinceHigh": 1.601,
+        "untilHigh": 1.70,
+        "price": [
+            69.95
+        ]
+    },
+    {
+        "sinceWidth": 1.201,
+        "untilWidth": 1.30,
+        "sinceHigh": 1.601,
+        "untilHigh": 1.70,
+        "price": [
+            72.50
+        ]
+    },
+    {
+        "sinceWidth": 1.301,
+        "untilWidth": 1.40,
+        "sinceHigh": 1.601,
+        "untilHigh": 1.70,
+        "price": [
+            75.50
+        ]
+    },
+    {
+        "sinceWidth": 1.401,
+        "untilWidth": 1.50,
+        "sinceHigh": 1.601,
+        "untilHigh": 1.70,
+        "price": [
+            77.95
+        ]
+    },
+    {
+        "sinceWidth": 1.501,
+        "untilWidth": 1.60,
+        "sinceHigh": 1.601,
+        "untilHigh": 1.70,
+        "price": [
+            81.95
+        ]
+    },
+    {
+        "sinceWidth": 1.601,
+        "untilWidth": 1.70,
+        "sinceHigh": 1.601,
+        "untilHigh": 1.70,
+        "price": [
+            84.95
+        ]
+    },
+    {
+        "sinceWidth": 1.701,
+        "untilWidth": 1.80,
+        "sinceHigh": 1.601,
+        "untilHigh": 1.70,
+        "price": [
+            87.50
+        ]
+    },
+    {
+        "sinceWidth": 0.00,
+        "untilWidth": 0.60,
+        "sinceHigh": 1.701,
+        "untilHigh": 1.80,
+        "price": [
+            52.95
+        ]
+    },
+    {
+        "sinceWidth": 0.601,
+        "untilWidth": 0.700,
+        "sinceHigh": 1.701,
+        "untilHigh": 1.80,
+        "price": [
+            55.95
+        ]
+    },
+    {
+        "sinceWidth": 0.701,
+        "untilWidth": 0.800,
+        "sinceHigh": 1.701,
+        "untilHigh": 1.80,
+        "price": [
+            61.50
+        ]
+    },
+    {
+        "sinceWidth": 0.801,
+        "untilWidth": 0.900,
+        "sinceHigh": 1.701,
+        "untilHigh": 1.80,
+        "price": [
+            61.50
+        ]
+    },
+    {
+        "sinceWidth": 0.901,
+        "untilWidth": 1,
+        "sinceHigh": 1.701,
+        "untilHigh": 1.80,
+        "price": [
+            65.95
+        ]
+    },
+    {
+        "sinceWidth": 1.001,
+        "untilWidth": 1.10,
+        "sinceHigh": 1.701,
+        "untilHigh": 1.80,
+        "price": [
+            67.95
+        ]
+    },
+    {
+        "sinceWidth": 1.101,
+        "untilWidth": 1.20,
+        "sinceHigh": 1.701,
+        "untilHigh": 1.80,
+        "price": [
+            70.95
+        ]
+    },
+    {
+        "sinceWidth": 1.201,
+        "untilWidth": 1.30,
+        "sinceHigh": 1.701,
+        "untilHigh": 1.80,
+        "price": [
+            73.50
+        ]
+    },
+    {
+        "sinceWidth": 1.301,
+        "untilWidth": 1.40,
+        "sinceHigh": 1.701,
+        "untilHigh": 1.80,
+        "price": [
+            77.50
+        ]
+    },
+    {
+        "sinceWidth": 1.401,
+        "untilWidth": 1.50,
+        "sinceHigh": 1.701,
+        "untilHigh": 1.80,
+        "price": [
+            79.95
+        ]
+    },
+    {
+        "sinceWidth": 1.501,
+        "untilWidth": 1.60,
+        "sinceHigh": 1.701,
+        "untilHigh": 1.80,
+        "price": [
+            82.95
+        ]
+    },
+    {
+        "sinceWidth": 1.601,
+        "untilWidth": 1.70,
+        "sinceHigh": 1.701,
+        "untilHigh": 1.80,
+        "price": [
+            85.95
+        ]
+    },
+    {
+        "sinceWidth": 1.701,
+        "untilWidth": 1.80,
+        "sinceHigh": 1.701,
+        "untilHigh": 1.80,
+        "price": [
+            89.50
+        ]
+    },
+    {
+        "sinceWidth": 0.00,
+        "untilWidth": 0.60,
+        "sinceHigh": 1.801,
+        "untilHigh": 1.90,
+        "price": [
+            57.95
+        ]
+    },
+    {
+        "sinceWidth": 0.601,
+        "untilWidth": 0.700,
+        "sinceHigh": 1.801,
+        "untilHigh": 1.90,
+        "price": [
+            61.50
+        ]
+    },
+    {
+        "sinceWidth": 0.701,
+        "untilWidth": 0.800,
+        "sinceHigh": 1.801,
+        "untilHigh": 1.90,
+        "price": [
+            64.95
+        ]
+    },
+    {
+        "sinceWidth": 0.801,
+        "untilWidth": 0.900,
+        "sinceHigh": 1.801,
+        "untilHigh": 1.90,
+        "price": [
+            68.95
+        ]
+    },
+    {
+        "sinceWidth": 0.901,
+        "untilWidth": 1,
+        "sinceHigh": 1.801,
+        "untilHigh": 1.90,
+        "price": [
+            72.50
+        ]
+    },
+    {
+        "sinceWidth": 1.001,
+        "untilWidth": 1.10,
+        "sinceHigh": 1.801,
+        "untilHigh": 1.90,
+        "price": [
+            75.50
+        ]
+    },
+    {
+        "sinceWidth": 1.101,
+        "untilWidth": 1.20,
+        "sinceHigh": 1.801,
+        "untilHigh": 1.90,
+        "price": [
+            78.95
+        ]
+    },
+    {
+        "sinceWidth": 1.201,
+        "untilWidth": 1.30,
+        "sinceHigh": 1.801,
+        "untilHigh": 1.90,
+        "price": [
+            82.95
+        ]
+    },
+    {
+        "sinceWidth": 1.301,
+        "untilWidth": 1.40,
+        "sinceHigh": 1.801,
+        "untilHigh": 1.90,
+        "price": [
+            86.50
+        ]
+    },
+    {
+        "sinceWidth": 1.401,
+        "untilWidth": 1.50,
+        "sinceHigh": 1.801,
+        "untilHigh": 1.90,
+        "price": [
+            90.50
+        ]
+    },
+    {
+        "sinceWidth": 1.501,
+        "untilWidth": 1.60,
+        "sinceHigh": 1.801,
+        "untilHigh": 1.90,
+        "price": [
+            93.95
+        ]
+    },
+    {
+        "sinceWidth": 1.601,
+        "untilWidth": 1.70,
+        "sinceHigh": 1.801,
+        "untilHigh": 1.90,
+        "price": [
+            97.95
+        ]
+    },
+    {
+        "sinceWidth": 1.701,
+        "untilWidth": 1.80,
+        "sinceHigh": 1.801,
+        "untilHigh": 1.90,
+        "price": [
+            101.50
+        ]
+    },
+    {
+        "sinceWidth": 0.00,
+        "untilWidth": 0.60,
+        "sinceHigh": 1.901,
+        "untilHigh": 2,
+        "price": [
+            58.95
+        ]
+    },
+    {
+        "sinceWidth": 0.601,
+        "untilWidth": 0.700,
+        "sinceHigh": 1.901,
+        "untilHigh": 2,
+        "price": [
+            62.50
+        ]
+    },
+    {
+        "sinceWidth": 0.701,
+        "untilWidth": 0.800,
+        "sinceHigh": 1.901,
+        "untilHigh": 2,
+        "price": [
+            65.95
+        ]
+    },
+    {
+        "sinceWidth": 0.801,
+        "untilWidth": 0.900,
+        "sinceHigh": 1.901,
+        "untilHigh": 2,
+        "price": [
+            69.95
+        ]
+    },
+    {
+        "sinceWidth": 0.901,
+        "untilWidth": 1,
+        "sinceHigh": 1.901,
+        "untilHigh": 2,
+        "price": [
+            73.50
+        ]
+    },
+    {
+        "sinceWidth": 1.001,
+        "untilWidth": 1.10,
+        "sinceHigh": 1.901,
+        "untilHigh": 2,
+        "price": [
+            77.50
+        ]
+    },
+    {
+        "sinceWidth": 1.101,
+        "untilWidth": 1.20,
+        "sinceHigh": 1.901,
+        "untilHigh": 2,
+        "price": [
+            80.95
+        ]
+    },
+    {
+        "sinceWidth": 1.201,
+        "untilWidth": 1.30,
+        "sinceHigh": 1.901,
+        "untilHigh": 2,
+        "price": [
+            84.95
+        ]
+    },
+    {
+        "sinceWidth": 1.301,
+        "untilWidth": 1.40,
+        "sinceHigh": 1.901,
+        "untilHigh": 2,
+        "price": [
+            88.50
+        ]
+    },
+    {
+        "sinceWidth": 1.401,
+        "untilWidth": 1.50,
+        "sinceHigh": 1.901,
+        "untilHigh": 2,
+        "price": [
+            91.95
+        ]
+    },
+    {
+        "sinceWidth": 1.501,
+        "untilWidth": 1.60,
+        "sinceHigh": 1.901,
+        "untilHigh": 2,
+        "price": [
+            94.95
+        ]
+    },
+    {
+        "sinceWidth": 1.601,
+        "untilWidth": 1.70,
+        "sinceHigh": 1.901,
+        "untilHigh": 2,
+        "price": [
+            98.95
+        ]
+    },
+    {
+        "sinceWidth": 1.701,
+        "untilWidth": 1.80,
+        "sinceHigh": 1.901,
+        "untilHigh": 2,
+        "price": [
+            102.50
+        ]
+    },
+    {
+        "sinceWidth": 0.00,
+        "untilWidth": 0.60,
+        "sinceHigh": 2.001,
+        "untilHigh": 2.10,
+        "price": [
+            60.50
+        ]
+    },
+    {
+        "sinceWidth": 0.601,
+        "untilWidth": 0.700,
+        "sinceHigh": 2.001,
+        "untilHigh": 2.10,
+        "price": [
+            64.50
+        ]
+    },
+    {
+        "sinceWidth": 0.701,
+        "untilWidth": 0.800,
+        "sinceHigh": 2.001,
+        "untilHigh": 2.10,
+        "price": [
+            67.95
+        ]
+    },
+    {
+        "sinceWidth": 0.801,
+        "untilWidth": 0.900,
+        "sinceHigh": 2.001,
+        "untilHigh": 2.10,
+        "price": [
+            68.50
+        ]
+    },
+    {
+        "sinceWidth": 0.901,
+        "untilWidth": 1,
+        "sinceHigh": 2.001,
+        "untilHigh": 2.10,
+        "price": [
+            75.50
+        ]
+    },
+    {
+        "sinceWidth": 1.001,
+        "untilWidth": 1.10,
+        "sinceHigh": 2.001,
+        "untilHigh": 2.10,
+        "price": [
+            77.95
+        ]
+    },
+    {
+        "sinceWidth": 1.101,
+        "untilWidth": 1.20,
+        "sinceHigh": 2.001,
+        "untilHigh": 2.10,
+        "price": [
+            81.95
+        ]
+    },
+    {
+        "sinceWidth": 1.201,
+        "untilWidth": 1.30,
+        "sinceHigh": 2.001,
+        "untilHigh": 2.10,
+        "price": [
+            85.95
+        ]
+    },
+    {
+        "sinceWidth": 1.301,
+        "untilWidth": 1.40,
+        "sinceHigh": 2.001,
+        "untilHigh": 2.10,
+        "price": [
+            89.50
+        ]
+    },
+    {
+        "sinceWidth": 1.401,
+        "untilWidth": 1.50,
+        "sinceHigh": 2.001,
+        "untilHigh": 2.10,
+        "price": [
+            92.95
+        ]
+    },
+    {
+        "sinceWidth": 1.501,
+        "untilWidth": 1.60,
+        "sinceHigh": 2.001,
+        "untilHigh": 2.10,
+        "price": [
+            96.95
+        ]
+    },
+    {
+        "sinceWidth": 1.601,
+        "untilWidth": 1.70,
+        "sinceHigh": 2.001,
+        "untilHigh": 2.10,
+        "price": [
+            100.50
+        ]
+    },
+    {
+        "sinceWidth": 1.701,
+        "untilWidth": 1.80,
+        "sinceHigh": 2.001,
+        "untilHigh": 2.10,
+        "price": [
+            104.50
+        ]
+    },
+    {
+        "sinceWidth": 0.00,
+        "untilWidth": 0.60,
+        "sinceHigh": 2.101,
+        "untilHigh": 2.20,
+        "price": [
+            61.50
+        ]
+    },
+    {
+        "sinceWidth": 0.601,
+        "untilWidth": 0.700,
+        "sinceHigh": 2.101,
+        "untilHigh": 2.20,
+        "price": [
+            64.95
+        ]
+    },
+    {
+        "sinceWidth": 0.701,
+        "untilWidth": 0.800,
+        "sinceHigh": 2.101,
+        "untilHigh": 2.20,
+        "price": [
+            68.95
+        ]
+    },
+    {
+        "sinceWidth": 0.801,
+        "untilWidth": 0.900,
+        "sinceHigh": 2.101,
+        "untilHigh": 2.20,
+        "price": [
+            71.50
+        ]
+    },
+    {
+        "sinceWidth": 0.901,
+        "untilWidth": 1,
+        "sinceHigh": 2.101,
+        "untilHigh": 2.20,
+        "price": [
+            76.50
+        ]
+    },
+    {
+        "sinceWidth": 1.001,
+        "untilWidth": 1.10,
+        "sinceHigh": 2.101,
+        "untilHigh": 2.20,
+        "price": [
+            79.95
+        ]
+    },
+    {
+        "sinceWidth": 1.101,
+        "untilWidth": 1.20,
+        "sinceHigh": 2.101,
+        "untilHigh": 2.20,
+        "price": [
+            82.95
+        ]
+    },
+    {
+        "sinceWidth": 1.201,
+        "untilWidth": 1.30,
+        "sinceHigh": 2.101,
+        "untilHigh": 2.20,
+        "price": [
+            87.50
+        ]
+    },
+    {
+        "sinceWidth": 1.301,
+        "untilWidth": 1.40,
+        "sinceHigh": 2.101,
+        "untilHigh": 2.20,
+        "price": [
+            91.50
+        ]
+    },
+    {
+        "sinceWidth": 1.401,
+        "untilWidth": 1.50,
+        "sinceHigh": 2.101,
+        "untilHigh": 2.20,
+        "price": [
+            94.95
+        ]
+    },
+    {
+        "sinceWidth": 1.501,
+        "untilWidth": 1.60,
+        "sinceHigh": 2.101,
+        "untilHigh": 2.20,
+        "price": [
+            97.95
+        ]
+    },
+    {
+        "sinceWidth": 1.601,
+        "untilWidth": 1.70,
+        "sinceHigh": 2.101,
+        "untilHigh": 2.20,
+        "price": [
+            101.50
+        ]
+    },
+    {
+        "sinceWidth": 1.701,
+        "untilWidth": 1.80,
+        "sinceHigh": 2.101,
+        "untilHigh": 2.20,
+        "price": [
+            104.95
+        ]
+    },
+    {
+        "sinceWidth": 0.00,
+        "untilWidth": 0.60,
+        "sinceHigh": 2.201,
+        "untilHigh": 2.30,
+        "price": [
+            63.50
+        ]
+    },
+    {
+        "sinceWidth": 0.601,
+        "untilWidth": 0.700,
+        "sinceHigh": 2.201,
+        "untilHigh": 2.30,
+        "price": [
+            66.95
+        ]
+    },
+    {
+        "sinceWidth": 0.701,
+        "untilWidth": 0.800,
+        "sinceHigh": 2.201,
+        "untilHigh": 2.30,
+        "price": [
+            70.95
+        ]
+    },
+    {
+        "sinceWidth": 0.801,
+        "untilWidth": 0.900,
+        "sinceHigh": 2.201,
+        "untilHigh": 2.30,
+        "price": [
+            74.50
+        ]
+    },
+    {
+        "sinceWidth": 0.901,
+        "untilWidth": 1,
+        "sinceHigh": 2.201,
+        "untilHigh": 2.30,
+        "price": [
+            77.95
+        ]
+    },
+    {
+        "sinceWidth": 1.001,
+        "untilWidth": 1.10,
+        "sinceHigh": 2.201,
+        "untilHigh": 2.30,
+        "price": [
+            80.95
+        ]
+    },
+    {
+        "sinceWidth": 1.101,
+        "untilWidth": 1.20,
+        "sinceHigh": 2.201,
+        "untilHigh": 2.30,
+        "price": [
+            84.95
+        ]
+    },
+    {
+        "sinceWidth": 1.201,
+        "untilWidth": 1.30,
+        "sinceHigh": 2.201,
+        "untilHigh": 2.30,
+        "price": [
+            88.50
+        ]
+    },
+    {
+        "sinceWidth": 1.301,
+        "untilWidth": 1.40,
+        "sinceHigh": 2.201,
+        "untilHigh": 2.30,
+        "price": [
+            91.95
+        ]
+    },
+    {
+        "sinceWidth": 1.401,
+        "untilWidth": 1.50,
+        "sinceHigh": 2.201,
+        "untilHigh": 2.30,
+        "price": [
+            95.90
+        ]
+    },
+    {
+        "sinceWidth": 1.501,
+        "untilWidth": 1.60,
+        "sinceHigh": 2.201,
+        "untilHigh": 2.30,
+        "price": [
+            99.50
+        ]
+    },
+    {
+        "sinceWidth": 1.601,
+        "untilWidth": 1.70,
+        "sinceHigh": 2.201,
+        "untilHigh": 2.30,
+        "price": [
+            103.50
+        ]
+    },
+    {
+        "sinceWidth": 1.701,
+        "untilWidth": 1.80,
+        "sinceHigh": 2.201,
+        "untilHigh": 2.30,
+        "price": [
+            105.95
+        ]
+    },
+    {
+        "sinceWidth": 0.00,
+        "untilWidth": 0.60,
+        "sinceHigh": 2.301,
+        "untilHigh": 2.40,
+        "price": [
+            64.50
+        ]
+    },
+    {
+        "sinceWidth": 0.601,
+        "untilWidth": 0.700,
+        "sinceHigh": 2.301,
+        "untilHigh": 2.40,
+        "price": [
+            67.95
+        ]
+    },
+    {
+        "sinceWidth": 0.701,
+        "untilWidth": 0.800,
+        "sinceHigh": 2.301,
+        "untilHigh": 2.40,
+        "price": [
+            71.50
+        ]
+    },
+    {
+        "sinceWidth": 0.801,
+        "untilWidth": 0.900,
+        "sinceHigh": 2.301,
+        "untilHigh": 2.40,
+        "price": [
+            75.50
+        ]
+    },
+    {
+        "sinceWidth": 0.901,
+        "untilWidth": 1,
+        "sinceHigh": 2.301,
+        "untilHigh": 2.40,
+        "price": [
+            78.95
+        ]
+    },
+    {
+        "sinceWidth": 1.001,
+        "untilWidth": 1.10,
+        "sinceHigh": 2.301,
+        "untilHigh": 2.40,
+        "price": [
+            82.95
+        ]
+    },
+    {
+        "sinceWidth": 1.101,
+        "untilWidth": 1.20,
+        "sinceHigh": 2.301,
+        "untilHigh": 2.40,
+        "price": [
+            86.50
+        ]
+    },
+    {
+        "sinceWidth": 1.201,
+        "untilWidth": 1.30,
+        "sinceHigh": 2.301,
+        "untilHigh": 2.40,
+        "price": [
+            90.50
+        ]
+    },
+    {
+        "sinceWidth": 1.301,
+        "untilWidth": 1.40,
+        "sinceHigh": 2.301,
+        "untilHigh": 2.40,
+        "price": [
+            93.95
+        ]
+    },
+    {
+        "sinceWidth": 1.401,
+        "untilWidth": 1.50,
+        "sinceHigh": 2.301,
+        "untilHigh": 2.40,
+        "price": [
+            97.95
+        ]
+    },
+    {
+        "sinceWidth": 1.501,
+        "untilWidth": 1.60,
+        "sinceHigh": 2.301,
+        "untilHigh": 2.40,
+        "price": [
+            100.50
+        ]
+    },
+    {
+        "sinceWidth": 1.601,
+        "untilWidth": 1.70,
+        "sinceHigh": 2.301,
+        "untilHigh": 2.40,
+        "price": [
+            104.50
+        ]
+    },
+    {
+        "sinceWidth": 1.701,
+        "untilWidth": 1.80,
+        "sinceHigh": 2.301,
+        "untilHigh": 2.40,
+        "price": [
+            107.95
+        ]
     }
 ]
