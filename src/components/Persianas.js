@@ -69,6 +69,7 @@ const Persianas = () => {
                             <FormControl
                                 onChange={manageChangeHigh}
                                 onKeyDown={handleKeyDownHigh}
+                                className="auto"
                                 placeholder=""
                                 aria-label="Username"
                                 aria-describedby="basic-addon1"
@@ -84,6 +85,7 @@ const Persianas = () => {
                             <FormControl
                                 onChange={manageChangeWidth}
                                 onKeyDown={handleKeyDownWidth}
+                                className="auto"
                                 placeholder=""
                                 aria-label="Username"
                                 aria-describedby="basic-addon1"

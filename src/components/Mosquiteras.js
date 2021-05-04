@@ -98,11 +98,12 @@ const Mosquiteras = () => {
                     <Col xs lg="4" >
                         <InputGroup className="mb-3">
                             <InputGroup.Prepend>
-                                <InputGroup.Text id="basic-addon1">Alto</InputGroup.Text>
+                                <InputGroup.Text id="basic-addon1" >Alto</InputGroup.Text>
                             </InputGroup.Prepend>
                             <FormControl
                                 onChange={manageChangeHigh}
                                 onKeyDown={handleKeyDownHigh}
+                                className="auto"
                                 placeholder=""
                                 aria-label="Username"
                                 aria-describedby="basic-addon1"
@@ -118,6 +119,7 @@ const Mosquiteras = () => {
                             <FormControl
                                 onChange={manageChangeWidth}
                                 onKeyDown={handleKeyDownWidth}
+                                className="auto"
                                 placeholder=""
                                 aria-label="Username"
                                 aria-describedby="basic-addon1"
