@@ -96,7 +96,7 @@ const Mosquiteras = () => {
                         </div>
                     </Col>
                     <Col xs lg="4" >
-                        <InputGroup>
+                        <InputGroup className="mb-3">
                             <InputGroup.Prepend>
                                 <InputGroup.Text id="basic-addon1">Alto</InputGroup.Text>
                             </InputGroup.Prepend>
