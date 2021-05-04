@@ -48,6 +48,23 @@ const Mosquiteras = () => {
             ).price[0];
         }
     }
+    const obtainPrice2 = (num) => {
+
+        let price = 0;
+        let finalPrice = 0;
+
+        if (high > 2.401 || width > 1.801) {
+            return <p className="text-danger">Consultar</p>
+        } else {
+
+            price = data.find(
+                o => o.sinceWidth <= width && o.untilWidth >= width
+                    &&
+                    o.sinceHigh <= high && o.untilHigh >= high
+            ).price[0];
+            return  (price + (price * num)).toFixed(2);
+        }
+    }
 
     const handleKeyDownHigh = (event) => {
         if (event.key === 'Enter') {
@@ -73,13 +90,13 @@ const Mosquiteras = () => {
         <div>
             <Container className="sticky-top pt-3 mt-5 bgColor">
                 <Row className="d-flex justify-content-center d-flex align-items-center">
-                    <Col xs lg="3">
+                    <Col xs lg="3" className="justify-content-start">
                         <div className="justify-content-center">
                             <h2 className="text-black">Mosquiteras</h2>
                         </div>
                     </Col>
-                    <Col xs lg="3">
-                        <InputGroup className="mb-3">
+                    <Col xs lg="4" >
+                        <InputGroup>
                             <InputGroup.Prepend>
                                 <InputGroup.Text id="basic-addon1">Alto</InputGroup.Text>
                             </InputGroup.Prepend>
@@ -141,7 +158,7 @@ const Mosquiteras = () => {
                                             <li>Marrón</li>
                                             <li>Precio: <strong> + 10%</strong> del total</li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{(obtainPrice()+(obtainPrice()*0.10)).toFixed(2)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{obtainPrice2(0.10)}€</strong></p>
                                     </div>
                                     <div>
                                         <ul>
@@ -151,7 +168,7 @@ const Mosquiteras = () => {
                                             <li>Burdeos</li>
                                             <li>Precio: <strong> + 15%</strong> del total</li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{(obtainPrice()+(obtainPrice()*0.15)).toFixed(2)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{obtainPrice2(0.15)}€</strong></p>
                                     </div>
                                     <div>
                                         Veteados madera:
@@ -160,7 +177,7 @@ const Mosquiteras = () => {
                                             <li>Envero Oscuro</li>
                                             <li>Precio: <strong> + 55%</strong> del total</li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{(obtainPrice()+(obtainPrice()*0.55)).toFixed(2)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{obtainPrice2(0.55)}€</strong></p>
                                     </div>
                                 </>
                             }
