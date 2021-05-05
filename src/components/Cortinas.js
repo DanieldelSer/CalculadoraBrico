@@ -89,6 +89,7 @@ const Cortinas = () => {
                                 aria-label="Username"
                                 aria-describedby="basic-addon1"
                                 type="number"
+                                min="0"
                                 step="0.01"
                                 id="high"
                             />
@@ -105,6 +106,7 @@ const Cortinas = () => {
                                 aria-label="Username"
                                 aria-describedby="basic-addon1"
                                 type="number"
+                                min="0"
                                 step="0.01"
                                 id="width"
                             />
@@ -270,9 +272,9 @@ const Cortinas = () => {
                                     <div>
                                         <ul>
                                             <li>Marrón, cristal, verde y azul</li>
-                                            <li>Precio: <strong>44.60€/m<sup>2</sup></strong></li>
+                                            <li>Precio: <strong>44.80€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 44.60)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 44.80)}€</strong></p>
                                     </div>
                                 </>
                             }

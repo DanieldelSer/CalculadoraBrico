@@ -40,6 +40,8 @@ const Mosquiteras = () => {
     const obtainPrice = () => {
         if (high > 2.401 || width > 1.801) {
             return <p className="text-danger">Consultar</p>
+        } else if (high < 0 || width < 0) {
+            return <p className="text-danger">Error</p>
         } else {
             return data.find(
                 o => o.sinceWidth <= width && o.untilWidth >= width
@@ -55,14 +57,15 @@ const Mosquiteras = () => {
 
         if (high > 2.401 || width > 1.801) {
             return <p className="text-danger">Consultar</p>
+        } else if (high < 0 || width < 0) {
+            return <p className="text-danger">Error</p>
         } else {
-
             price = data.find(
                 o => o.sinceWidth <= width && o.untilWidth >= width
                     &&
                     o.sinceHigh <= high && o.untilHigh >= high
             ).price[0];
-            return  (price + (price * num)).toFixed(2);
+            return (price + (price * num)).toFixed(2);
         }
     }
 
@@ -108,6 +111,7 @@ const Mosquiteras = () => {
                                 aria-label="Username"
                                 aria-describedby="basic-addon1"
                                 type="number"
+                                min="0"
                                 step="0.01"
                                 id="high"
                             />
@@ -124,6 +128,7 @@ const Mosquiteras = () => {
                                 aria-label="Username"
                                 aria-describedby="basic-addon1"
                                 type="number"
+                                min="0"
                                 step="0.01"
                                 id="width"
                             />

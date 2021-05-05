@@ -74,6 +74,7 @@ const Persianas = () => {
                                 aria-label="Username"
                                 aria-describedby="basic-addon1"
                                 type="number"
+                                min="0"
                                 step="0.01"
                                 id="high"
                             />
@@ -90,6 +91,7 @@ const Persianas = () => {
                                 aria-label="Username"
                                 aria-describedby="basic-addon1"
                                 type="number"
+                                min="0"
                                 step="0.01"
                                 id="width"
                             />
