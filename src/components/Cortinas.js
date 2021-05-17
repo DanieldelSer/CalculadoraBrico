@@ -144,9 +144,9 @@ const Cortinas = () => {
                                     <div>
                                         <ul>
                                             <li>Metalizados Bronce y Oro</li>
-                                            <li>Precio: <strong>40,95€/m<sup>2</sup></strong></li>
+                                            <li>Precio: <strong>42,95€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 40.95)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 42.95)}€</strong></p>
                                     </div>
                                 </>
                             }
@@ -162,9 +162,9 @@ const Cortinas = () => {
                                     <div>
                                         <ul>
                                             <li>Cristal azul, transparente y verde</li>
-                                            <li>Precio: <strong>41,90€/m<sup>2</sup></strong></li>
+                                            <li>Precio: <strong>43,95€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 41.90)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 43.95)}€</strong></p>
                                     </div>
                                 </>
                             }
@@ -180,9 +180,9 @@ const Cortinas = () => {
                                     <div>
                                         <ul>
                                             <li>Opacos marfin y marrón </li>
-                                            <li>Precio: <strong>40,50€/m<sup>2</sup></strong></li>
+                                            <li>Precio: <strong>42,50€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 40.50)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 42.50)}€</strong></p>
                                     </div>
                                 </>
                             }
@@ -199,9 +199,9 @@ const Cortinas = () => {
                                         <ul>
                                             <li>Opacos marrón y gris</li>
                                             <li>Transparente marrón, blanco y verde</li>
-                                            <li>Precio: <strong>30,90€/m<sup>2</sup></strong></li>
+                                            <li>Precio: <strong>27,50€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 30.90)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 27.50)}€</strong></p>
                                     </div>
                                 </>
                             }
@@ -217,9 +217,9 @@ const Cortinas = () => {
                                     <div>
                                         <ul>
                                             <li>Verde y bronce</li>
-                                            <li>Precio: <strong>40,95€/m<sup>2</sup></strong></li>
+                                            <li>Precio: <strong>42,50€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 40.95)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 42.50)}€</strong></p>
                                     </div>
                                 </>
                             }
@@ -235,9 +235,9 @@ const Cortinas = () => {
                                     <div>
                                         <ul>
                                             <li>Marrón y gris</li>
-                                            <li>Precio: <strong>40,70€/m<sup>2</sup></strong></li>
+                                            <li>Precio: <strong>42,50€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 40.70)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 42.50)}€</strong></p>
                                     </div>
                                 </>
                             }
@@ -254,9 +254,9 @@ const Cortinas = () => {
                                         <ul>
                                             <li>Marrón-Marfil, azul, verde</li>
                                             <li>Cristal marrón y cristal negro</li>
-                                            <li>Precio: <strong>30,90€/m<sup>2</sup></strong></li>
+                                            <li>Precio: <strong>27,50€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 30.90)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 27.50)}€</strong></p>
                                     </div>
                                 </>
                             }
@@ -272,9 +272,9 @@ const Cortinas = () => {
                                     <div>
                                         <ul>
                                             <li>Marrón, cristal, verde y azul</li>
-                                            <li>Precio: <strong>44.80€/m<sup>2</sup></strong></li>
+                                            <li>Precio: <strong>45.95€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 44.80)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 45.95)}€</strong></p>
                                     </div>
                                 </>
                             }
@@ -308,9 +308,9 @@ const Cortinas = () => {
                                     <div>
                                         <ul>
                                             <li>Verde-blanco, marrón-blanco y marrón claro-oscuro</li>
-                                            <li>Precio: <strong>44,95€/m<sup>2</sup></strong></li>
+                                            <li>Precio: <strong>46,95€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 44.95)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 46.95)}€</strong></p>
                                     </div>
                                 </>
                             }
@@ -326,9 +326,9 @@ const Cortinas = () => {
                                     <div>
                                         <ul>
                                             <li>Grueso</li>
-                                            <li>Precio: <strong>42,50€/m<sup>2</sup></strong></li>
+                                            <li>Precio: <strong>44,50€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 42.50)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 44.50)}€</strong></p>
                                     </div>
                                 </>
                             }
@@ -344,9 +344,9 @@ const Cortinas = () => {
                                     <div>
                                         <ul>
                                             <li>Fino</li>
-                                            <li>Precio: <strong>40,50€/m<sup>2</sup></strong></li>
+                                            <li>Precio: <strong>42,95€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 40.50)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 42.95)}€</strong></p>
                                     </div>
                                 </>
                             }
@@ -362,9 +362,9 @@ const Cortinas = () => {
                                     <div>
                                         <ul>
                                             <li>Jaspeado marrón</li>
-                                            <li>Precio: <strong>41,90€/m<sup>2</sup></strong></li>
+                                            <li>Precio: <strong>43,95€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 41.90)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 43.95)}€</strong></p>
                                     </div>
                                 </>
                             }
@@ -380,9 +380,9 @@ const Cortinas = () => {
                                     <div>
                                         <ul>
                                             <li>Marrón: Claro y oscuro</li>
-                                            <li>Precio: <strong>59,00€/m<sup>2</sup></strong></li>
+                                            <li>Precio: <strong>61,95€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 59.00)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 61.95)}€</strong></p>
                                     </div>
                                 </>
                             }
@@ -398,9 +398,9 @@ const Cortinas = () => {
                                     <div>
                                         <ul>
                                             <li>Verde, azul, rojo, amarillo, blanco y negro</li>
-                                            <li>Precio: <strong>40,50€/m<sup>2</sup></strong></li>
+                                            <li>Precio: <strong>43,50€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 40.50)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 43.50)}€</strong></p>
                                     </div>
                                 </>
                             }
@@ -417,9 +417,9 @@ const Cortinas = () => {
                                         <ul>
                                             Cadena de aluminio
                                             <li>Morado, azul, rojo, dorado, plata y bronce</li>
-                                            <li>Precio: <strong>59,00€/m<sup>2</sup></strong></li>
+                                            <li>Precio: <strong>60,95€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 59.00)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 60.95)}€</strong></p>
                                     </div>
                                 </>
                             }

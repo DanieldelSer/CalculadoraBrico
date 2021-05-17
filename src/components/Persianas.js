@@ -119,24 +119,24 @@ const Persianas = () => {
                                         <ul>
                                             Alicantina plástico PVC:
                                             <li>Imitación madera, verde y marfil</li>
-                                            <li>Precio: <strong>25,30€/m<sup>2</sup></strong></li>
+                                            <li>Precio: <strong>26,95€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 25.30)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 26.95)}€</strong></p>
                                     </div>
                                     <div>
                                         <ul>
                                             <li>Alicantina madera pino <strong>sin pintar</strong></li>
-                                            <li>Precio: <strong>24,00€/m<sup>2</sup></strong></li>
+                                            <li>Precio: <strong>25,50€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 24.00)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 25.50)}€</strong></p>
                                     </div>
                                     <div>
                                         <ul>
                                             Alicantina madera pintada:
                                             <li>Verde rústico, marfil, blanco, barniz pino, miel, nogal y gris </li>
-                                            <li>Precio: <strong>29,40€/m<sup>2</sup></strong></li>
+                                            <li>Precio: <strong>30,95€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 29.40)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 30.95)}€</strong></p>
                                     </div>
                                 </>
                             }
@@ -151,32 +151,32 @@ const Persianas = () => {
                                     <div>
                                         <ul>
                                             <li>Mini Ceylan <strong>sin pintar</strong></li>
-                                            <li>Precio: <strong>30,95€/m<sup>2</sup></strong></li>
-                                        </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 30.95)}€</strong></p>
-                                    </div>
-                                    <div>
-                                        <ul>
-                                            Mini Ceylan <strong>pintada</strong>
-                                            <li>Verde, pino miel, nogal y blanco</li>
-                                            <li>Precio: <strong>35,95€/m<sup>2</sup></strong></li>
-                                        </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 35.95)}€</strong></p>
-                                    </div>
-                                    <div>
-                                        <ul>
-                                            <li>Ceylan <strong>sin pintar</strong></li>
                                             <li>Precio: <strong>32,95€/m<sup>2</sup></strong></li>
                                         </ul>
                                         <p className="text-warning">Total: <strong>{calculatePrice(high, width, 32.95)}€</strong></p>
                                     </div>
                                     <div>
                                         <ul>
-                                            Ceylan <strong>pintada</strong>
+                                            Mini Ceylan <strong>pintada</strong>
                                             <li>Verde, pino miel, nogal y blanco</li>
                                             <li>Precio: <strong>37,95€/m<sup>2</sup></strong></li>
                                         </ul>
                                         <p className="text-warning">Total: <strong>{calculatePrice(high, width, 37.95)}€</strong></p>
+                                    </div>
+                                    <div>
+                                        <ul>
+                                            <li>Ceylan <strong>sin pintar</strong></li>
+                                            <li>Precio: <strong>34,95€/m<sup>2</sup></strong></li>
+                                        </ul>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 34.95)}€</strong></p>
+                                    </div>
+                                    <div>
+                                        <ul>
+                                            Ceylan <strong>pintada</strong>
+                                            <li>Verde, pino miel, nogal y blanco</li>
+                                            <li>Precio: <strong>39,95€/m<sup>2</sup></strong></li>
+                                        </ul>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 39.95)}€</strong></p>
                                     </div>
                                 </>
                             }

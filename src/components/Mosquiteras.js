@@ -7,6 +7,9 @@ import CardMosquitera from '../assets/CardMosquitera';
 
 // JSON
 import data from '../assets/tablaPreciosMosquiteras.json'
+import dataMarron from '../assets/tablaPreciosMosquiterasMarron.json'
+import dataBG from '../assets/tablaPreciosMosquiterasBGVBM.json'
+import dataVeteado from '../assets/tablaPreciosMosquiterasVeteado.json'
 
 // Imagenes
 import mosquiteraEnrollableCard from '../img/mosquitera-enrollable-card.jpg';
@@ -37,35 +40,35 @@ const Mosquiteras = () => {
         }
     };
 
-    const obtainPrice = () => {
-        if (high > 2.401 || width > 1.801) {
+    const obtainPrice = (table) => {
+        if (high > 2.401 || width > 2.001) {
             return <p className="text-danger">Consultar</p>
         } else if (high < 0 || width < 0) {
             return <p className="text-danger">Error</p>
-        } else {
+        } else if (table === "data") {
             return data.find(
                 o => o.sinceWidth <= width && o.untilWidth >= width
                     &&
                     o.sinceHigh <= high && o.untilHigh >= high
             ).price[0];
-        }
-    }
-    const obtainPrice2 = (num) => {
-
-        let price = 0;
-        let finalPrice = 0;
-
-        if (high > 2.401 || width > 1.801) {
-            return <p className="text-danger">Consultar</p>
-        } else if (high < 0 || width < 0) {
-            return <p className="text-danger">Error</p>
-        } else {
-            price = data.find(
+        } else if (table === "brown") {
+            return dataMarron.find(
                 o => o.sinceWidth <= width && o.untilWidth >= width
                     &&
                     o.sinceHigh <= high && o.untilHigh >= high
             ).price[0];
-            return (price + (price * num)).toFixed(2);
+        } else if (table === "bg") {
+            return dataBG.find(
+                o => o.sinceWidth <= width && o.untilWidth >= width
+                    &&
+                    o.sinceHigh <= high && o.untilHigh >= high
+            ).price[0];
+        }  else if (table === "veteado") {
+            return dataVeteado.find(
+                o => o.sinceWidth <= width && o.untilWidth >= width
+                    &&
+                    o.sinceHigh <= high && o.untilHigh >= high
+            ).price[0];
         }
     }
 
@@ -158,14 +161,14 @@ const Mosquiteras = () => {
                                             <li>Blanco y plata</li>
                                             <li>Precio: <strong>53,95€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{obtainPrice()}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{obtainPrice("data")}€</strong></p>
                                     </div>
                                     <div>
                                         <ul>
                                             <li>Marrón</li>
-                                            <li>Precio: <strong> + 10%</strong> del total</li>
+                                            <li>Precio: <strong>56,50€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{obtainPrice2(0.10)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{obtainPrice("brown")}€</strong></p>
                                     </div>
                                     <div>
                                         <ul>
@@ -173,18 +176,19 @@ const Mosquiteras = () => {
                                             <li>Gris</li>
                                             <li>Verde</li>
                                             <li>Burdeos</li>
-                                            <li>Precio: <strong> + 15%</strong> del total</li>
+                                            <li>Precio: <strong>58,50€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{obtainPrice2(0.15)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{obtainPrice("bg")}€</strong></p>
                                     </div>
                                     <div>
                                         Veteados madera:
                                         <ul>
                                             <li>Pino Nudo</li>
                                             <li>Envero Oscuro</li>
-                                            <li>Precio: <strong> + 55%</strong> del total</li>
+                                            <li>Golden</li>
+                                            <li>Precio: <strong>88,00€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{obtainPrice2(0.55)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{obtainPrice("veteado")}€</strong></p>
                                     </div>
                                 </>
                             }
@@ -199,31 +203,31 @@ const Mosquiteras = () => {
                                 <>
                                     <div>
                                         <ul>
-                                            <li>Blanco <strong>sin montar</strong></li>
-                                            <li>Precio: <strong>31,20€/m<sup>2</sup></strong></li>
+                                            <li>Blanco y Plata <strong>sin montar</strong></li>
+                                            <li>Precio: <strong>32,95€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 31.20)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 32.95)}€</strong></p>
                                     </div>
                                     <div>
                                         <ul>
-                                            <li>Blanco <strong>montada</strong></li>
-                                            <li>Precio: <strong>39,30€/m<sup>2</sup></strong></li>
+                                            <li>Blanco y Plata <strong>montada</strong></li>
+                                            <li>Precio: <strong>39,95€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 39.30)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 39.95)}€</strong></p>
                                     </div>
                                     <div>
                                         <ul>
                                             <li>Marrón <strong>sin montar</strong></li>
-                                            <li>Precio: <strong>35.00€/m<sup>2</sup></strong></li>
+                                            <li>Precio: <strong>35.95€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 35.00)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 35.95)}€</strong></p>
                                     </div>
                                     <div>
                                         <ul>
                                             <li>Marrón <strong>montada</strong></li>
-                                            <li>Precio: <strong>42,00€/m<sup>2</sup></strong></li>
+                                            <li>Precio: <strong>43,95€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 42.00)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 43.95)}€</strong></p>
                                     </div>
                                 </>
                             }
@@ -240,44 +244,44 @@ const Mosquiteras = () => {
                                     <div>
                                         <ul>
                                             <li>Blanco y plata <strong>sin montar</strong></li>
-                                            <li>Precio: <strong>35,95€/m<sup>2</sup></strong></li>
+                                            <li>Precio: <strong>36,95€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 35.95)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 36.95)}€</strong></p>
                                     </div>
                                     <div>
                                         <ul>
                                             <li>Blanco y plata <strong>montada</strong></li>
-                                            <li>Precio: <strong>42,00€/m<sup>2</sup></strong></li>
-                                        </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 42.00)}€</strong></p>
-                                    </div>
-                                    <div>
-                                        <ul>
-                                            <li>Marrón <strong>sin montar</strong></li>
-                                            <li>Precio: <strong>39,00€/m<sup>2</sup></strong></li>
-                                        </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 39.00)}€</strong></p>
-                                    </div>
-                                    <div>
-                                        <ul>
-                                            <li>Marrón <strong>montada</strong></li>
-                                            <li>Precio: <strong>46,00€/m<sup>2</sup></strong></li>
-                                        </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 46.00)}€</strong></p>
-                                    </div>
-                                    <div>
-                                        <ul>
-                                            <li>Bronce anonizado <strong>sin montar</strong></li>
                                             <li>Precio: <strong>43,95€/m<sup>2</sup></strong></li>
                                         </ul>
                                         <p className="text-warning">Total: <strong>{calculatePrice(high, width, 43.95)}€</strong></p>
                                     </div>
                                     <div>
                                         <ul>
-                                            <li>Bronce anonizado <strong>montada</strong></li>
-                                            <li>Precio: <strong>50,95€/m<sup>2</sup></strong></li>
+                                            <li>Marrón <strong>sin montar</strong></li>
+                                            <li>Precio: <strong>39,95€/m<sup>2</sup></strong></li>
                                         </ul>
-                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 50.95)}€</strong></p>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 39.95)}€</strong></p>
+                                    </div>
+                                    <div>
+                                        <ul>
+                                            <li>Marrón <strong>montada</strong></li>
+                                            <li>Precio: <strong>46,95€/m<sup>2</sup></strong></li>
+                                        </ul>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 46.95)}€</strong></p>
+                                    </div>
+                                    <div>
+                                        <ul>
+                                            <li>Bronce anonizado <strong>sin montar</strong></li>
+                                            <li>Precio: <strong>44,95€/m<sup>2</sup></strong></li>
+                                        </ul>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 44.95)}€</strong></p>
+                                    </div>
+                                    <div>
+                                        <ul>
+                                            <li>Bronce anonizado <strong>montada</strong></li>
+                                            <li>Precio: <strong>52,95€/m<sup>2</sup></strong></li>
+                                        </ul>
+                                        <p className="text-warning">Total: <strong>{calculatePrice(high, width, 52.95)}€</strong></p>
                                     </div>
                                 </>
                             }

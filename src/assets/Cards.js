@@ -1,8 +1,8 @@
 import Card from 'react-bootstrap/Card';
 import { Link } from "react-router-dom";
 
-const Cards = (props) => {
-  return (
+const Cards = props => 
+
     <Card className="hover img-fluid" style={{ width: '22rem' }}>
       <Link to={props.link}>
         <Card.Img variant="top" src={props.img}  />
@@ -12,8 +12,5 @@ const Cards = (props) => {
         <Card.Text>{props.text}</Card.Text>
       </Card.Body>
     </Card>
-
-  );
-};
 
 export default Cards;
